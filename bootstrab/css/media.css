@@ -1,0 +1,54 @@
+/* smart phone and tablets */
+
+@media(max-width:767px){
+	.medo{
+		font-size: 15px !important;
+	}
+
+			@media(max-width:460px){
+			.medo{
+				font-size: 13px !important;
+			}
+		}
+
+		@media(max-width:400px){
+			.medo{
+				font-size: 10px !important;
+			}
+		}
+
+		@media(max-width:300px){
+			.medo{
+				font-size: 7px !important;
+			}
+		}
+}
+
+
+
+
+/* small screen */
+
+@media(max-width:991px){
+.medo{
+		font-size: 15px;
+	}
+}
+
+
+/* medium screen */
+
+@media(max-width:1199px){
+.medo{
+		font-size: 20px;
+	}
+}
+
+
+/* larg screen */
+
+@media(min-width:1200px){
+.medo{
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,239 @@
+
+body{
+	background-color: #f4f4f4;
+	font-size: 16px;
+}
+
+
+
+.form-control{
+	position: relative;
+}
+
+/* Start page user login form  */
+
+.login{
+	width: 300px;
+	margin: 100px auto;
+}
+
+.login input{
+	margin-bottom: 10px;
+}
+
+.login .form-control{
+	background-color: #EAEAEA;
+}
+
+/* End page user login form  */
+
+
+/* Start NavBar */
+
+.navbar-inverse{
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a,
+.navbar-brand{
+	font-size: 1em;
+}
+
+
+.navbar-nav > li > .dropdown-menu{
+	background-color: #101010;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a{
+	color: #FFF;
+    padding: 8px 20px;
+}
+
+.dropdown-menu{
+	max-width : 180px;
+}
+
+.dropdown-menu li{
+
+}
+
+/* End NavBar */
+
+/*Start Member*/
+
+	h1{
+    font-size: 36px;
+    margin: 30px;
+    font-weight: bold;
+    color: #666;
+}
+
+.astric{
+	font-size: 2em;
+    position: absolute;
+    right: 25px;
+    top: 6px;
+    color: red;
+}
+
+
+.main-table tr:first-child td{
+    background-color: #312929;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+/*End Member*/
+
+
+
+/* Start DashBoard */
+
+.stat{
+	background-color: #FFF;
+	width: 100%;
+	color: #FFF;
+    border: 1px solid #CCC;
+	padding: 15px;
+}
+
+.stat a{
+	color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mylist{
+	overflow: hidden;
+}
+
+.mylist li{
+	padding: 5px;
+}
+
+.mylist li:nth-child(odd){ 
+	background-color: #e1f7d9;
+ }
+
+.mylist li .btn{
+	margin-left: 10px;
+	padding: 0 12px;
+}
+
+.homedash .total{
+	background-color: #3498db;
+}
+
+.homedash .pending{
+	background-color: #c0392b;
+}
+
+.homedash .item{
+	background-color: #d35400;
+}
+
+.homedash .comme{
+	background-color: #8e44ad;
+}
+
+
+.anther{
+	    font-size: 4em;
+	    display: block;
+}
+
+.dash-panl{
+	margin-top: 20px;
+}
+
+
+/* End DashBoard */
+
+
+/* Start Category */
+
+.catego-panl .row .panel-body{
+	padding:0;
+}
+
+
+.catego-panl .row .catego-item{
+	padding: 24px 0 0 24px;
+	position: relative;
+	overflow: hidden;
+	transition: all .5s ease-in-out;
+}
+
+.catego-panl .row .catego-item h3{
+	margin-top: 0;
+}
+
+
+.catego-panl .row .catego-item hr{
+		margin: 0;
+}
+
+
+
+.catego-panl .row .catego-item .CategoVis,
+.catego-panl .row .catego-item .CategoCom,
+.catego-panl .row .catego-item .CategoAds{
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 6px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+
+.catego-panl .row .catego-item .CategoDesc{
+
+}
+.catego-panl .row .catego-item .CategoVis{
+	background-color: #e74c3c;
+}
+.catego-panl .row .catego-item .CategoCom{
+	background-color: #2980b9;
+}
+.catego-panl .row .catego-item .CategoAds{
+	background-color: #27ae60
+}
+
+
+.catego-panl .row .catego-item .btn-primary,
+.catego-panl .row .catego-item .btn-danger{
+	position: absolute;
+	top: 20px;
+	margin-right: 10px;
+	transition: all .5s ease-in-out;
+text-align: center;
+}
+
+.catego-panl .row .catego-item .btn-primary	{	
+	right: -50px;	
+}
+
+.catego-panl .row .catego-item .btn-danger{
+	right: -60px;
+}
+
+
+.catego-panl .row .catego-item:hover{
+	background-color: #EEE;
+}
+
+.catego-panl .row .catego-item:hover .btn-primary{
+	right:10px;
+}
+
+
+.catego-panl .row .catego-item:hover .btn-danger{
+	right:50px;
+}
+
+
+/* End Category */
