@@ -1,4 +1,6 @@
+
 <?php
+$
 include "init.php";
 checkForStatusSession('Username','index.php');
 	include $temp."DashBoaredClass.php";
